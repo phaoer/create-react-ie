@@ -1,0 +1,13 @@
+{
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"env": { "browser": true, "node": true, "es6": true },
+	"plugins": ["react", "react-hooks"],
+	"rules": {
+		"no-unused-vars": "warn",
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn"
+	},
+	"extends": ["eslint:recommended", "plugin:react/recommended"]
+}
